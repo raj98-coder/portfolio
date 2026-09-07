@@ -1,3 +1,7 @@
+Implemented the cleaner contact card copy and verified the project typecheck passes.
+
+Replace your complete src/App.tsx with this:
+
 import { useEffect, useState, type ReactNode } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ErrorBoundary } from '@/components/error-boundary';
@@ -644,24 +648,24 @@ function Home() {
                 aria-label="Current availability"
               >
                 <div className="contact-card-top">
-                  <span>availability / 2026</span>
+                  <span>available for work</span>
                   <span className="contact-card-status">
                     <i /> open
                   </span>
                 </div>
                 <h3>
-                  Good work needs
+                  Available for
                   <br />
-                  <em>good questions.</em>
+                  <em>useful work.</em>
                 </h3>
                 <div className="contact-card-list">
                   <div>
                     <span>01</span>
-                    <p>Frontend engineering roles</p>
+                    <p>Full-time frontend roles</p>
                   </div>
                   <div>
                     <span>02</span>
-                    <p>Product teams that value details</p>
+                    <p>Teams building useful products</p>
                   </div>
                   <div>
                     <span>03</span>
@@ -669,8 +673,7 @@ function Home() {
                   </div>
                 </div>
                 <p className="contact-card-note">
-                  Tell me what you are building and where the frontend can make
-                  it feel clearer.
+                  Tell me about your project or role and how I can help.
                 </p>
               </aside>
             </div>
