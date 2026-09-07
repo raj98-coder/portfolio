@@ -524,11 +524,6 @@ function Home() {
               </div>
             </div>
             <div className="experience-grid">
-              <p className="experience-note reveal delay-1">
-                My work at Stairs7 is an individual-contributor engineering
-                role. The statutory Director title is a legal designation; my
-                daily work is not founder work or people management.
-              </p>
               <div className="timeline reveal delay-2">
                 <article className="timeline-item">
                   <span className="timeline-dot" />
@@ -539,10 +534,6 @@ function Home() {
                     TypeScript, Next.js, UI architecture, technical planning,
                     reviews, pairing and production debugging.
                   </p>
-                  <span className="designation-note">
-                    Director — statutory designation, separate from day-to-day
-                    IC role
-                  </span>
                 </article>
                 <article className="timeline-item">
                   <span className="timeline-dot" />
