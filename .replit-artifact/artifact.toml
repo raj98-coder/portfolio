@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Rajkumar Ravichandran — Frontend Engineer"
+description = "A distinctive personal portfolio for Rajkumar Ravichandran, showcasing frontend engineering, UI architecture, production SaaS work, and mobile application expertise through a clear, human-crafted narrative."
+version = "1.0.0"
+id = "artifacts/rajkumar-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22701
+
+[services.development]
+run = "pnpm --filter @workspace/rajkumar-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/rajkumar-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/rajkumar-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22701"
+BASE_PATH = "/"
