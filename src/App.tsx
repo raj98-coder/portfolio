@@ -524,6 +524,9 @@ function Home() {
               </div>
             </div>
             <div className="experience-grid">
+              <p className="experience-note reveal delay-1">
+                My work at Stairs7 is Building production-ready frontend experiences with a focus on scalable UI architecture, performance, responsive design and maintainable engineering practices.
+              </p>
               <div className="timeline reveal delay-2">
                 <article className="timeline-item">
                   <span className="timeline-dot" />
@@ -531,7 +534,7 @@ function Home() {
                   <h3>Stairs7 Solutions Private Limited</h3>
                   <p>
                     Frontend Engineer working hands-on across React,
-                    TypeScript, Next.js, UI architecture, technical planning,
+                    TypeScript, Next.js, React Native, UI architecture, technical planning,
                     reviews, pairing and production debugging.
                   </p>
                 </article>
