@@ -1,7 +1,3 @@
-Implemented the cleaner contact card copy and verified the project typecheck passes.
-
-Replace your complete src/App.tsx with this:
-
 import { useEffect, useState, type ReactNode } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ErrorBoundary } from '@/components/error-boundary';
