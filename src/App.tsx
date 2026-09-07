@@ -119,8 +119,8 @@ function Home() {
           </nav>
           <a
             className="nav-resume"
-            href="/resume/Rajkumar_Ravichandran_Resume.docx"
-            download="Rajkumar_Ravichandran_Resume.docx"
+            href="/resume/Rajkumar_Ravichandran_Resume.pdf"
+            download="Rajkumar_Ravichandran_Resume.pdf"
             data-testid="link-nav-resume"
           >
             Download resume <Download size={13} />
@@ -625,8 +625,8 @@ function Home() {
                   </a>
                   <a
                     className="contact-link"
-                    href="/resume/Rajkumar_Ravichandran_Resume.docx"
-                    download="Rajkumar_Ravichandran_Resume.docx"
+                    href="/resume/Rajkumar_Ravichandran_Resume.pdf"
+                    download="Rajkumar_Ravichandran_Resume.pdf"
                     data-testid="link-resume"
                   >
                     Download resume <Download size={13} />
